@@ -11,8 +11,8 @@
 	<groupId>com.wallet</groupId>
 	<artifactId>wallet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>wallet</name>
+	<description>Projeto Carteira Udemy</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -41,7 +41,20 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.200</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.4.0</version>
+			<scope>test</scope>
+		</dependency>
+	 </dependencies>
 
 	<build>
 		<plugins>
